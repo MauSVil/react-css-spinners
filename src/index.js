@@ -1,5 +1,9 @@
-import React from 'react';
+import Ellipsis from './Ellipsis';
+import Ring from './Ring';
+import Ripple from './Ripple';
 
-const Spinner = (props) => <h1>Spinner</h1>;
-
-export default Spinner;
+export default {
+  Ellipsis,
+  Ring,
+  Ripple,
+};
